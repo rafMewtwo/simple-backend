@@ -1,0 +1,24 @@
+{
+  "name": "simple-backend",
+  "version": "1.0.0",
+  "description": "exemplo de backend consulta com retorno do nome",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "simple"
+  ],
+  "author": "raf",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-rescue": "^1.1.31",
+    "mongodb": "^4.4.1",
+    "nodemon": "^2.0.15"
+  }
+}
